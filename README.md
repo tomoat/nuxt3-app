@@ -7,7 +7,8 @@ We recommend to look at the [documentation](https://v3.nuxtjs.org).
 ```bash
 npx nuxi init nuxt3-app
 ```
- 🎉  Another dandy Nuxt project just made! Next steps:
+
+🎉 Another dandy Nuxt project just made! Next steps:
 
      📁  `cd nuxt3-app`
 
@@ -35,6 +36,42 @@ Build the application for production:
 
 ```bash
 pnpm build
+```
+
+```bash
+pnpm start
+```
+
+## Dependencies Update
+
+If you want to update the libraries, I left a nice command for you. Select it with space and press enter.
+
+```bash
+pnpm up -i  #yarn upgrade-interactive --latest
+```
+
+## Directory Structure
+
+```
+.
+├── .git
+├── .gitignore
+├── .nuxt
+├── README.md
+├── app.vue
+├── assets
+├── components
+├── composables
+├── layouts
+├── node_modules
+├── nuxt.config.ts
+├── package.json
+├── pages
+├── pbulic
+├── plugins
+├── pnpm-lock.yaml
+├── server
+└── tsconfig.json
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
