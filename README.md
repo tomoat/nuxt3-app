@@ -67,7 +67,7 @@ pnpm up -i  #yarn upgrade-interactive --latest
 ├── nuxt.config.ts
 ├── package.json
 ├── pages
-├── pbulic
+├── public
 ├── plugins
 ├── pnpm-lock.yaml
 ├── server
